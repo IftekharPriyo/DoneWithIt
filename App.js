@@ -1,11 +1,10 @@
 import React from 'react';
-import ViewImageScreen from './App/screens/ViewImageScreen';
+import WelcomeScreen from './App/screens/WelcomeScreen';
 
 export default function App() {
 
   return (
-    // <WelcomeScreen></WelcomeScreen>
-    <ViewImageScreen></ViewImageScreen>
+    <WelcomeScreen></WelcomeScreen>
   );
 }
 
