@@ -1,18 +1,9 @@
 import React from 'react';
-import WelcomeScreen from './App/screens/WelcomeScreen';
+import MessagesScreen from './App/screens/MessagesScreen';
 
 export default function App() {
 
   return (
-    <WelcomeScreen></WelcomeScreen>
+    <MessagesScreen></MessagesScreen>
   );
 }
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff'
-//     // alignItems: "center",
-//     // justifyContent: "center"
-//   },
-// });
